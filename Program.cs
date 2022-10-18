@@ -26,7 +26,7 @@ namespace BoolReturn
             int y = Convert.ToInt32(Console.ReadLine());
 
             // print out the result
-            Console.WriteLine("Is is " + IsEven(x, y).ToString().ToLower() +
+            Console.WriteLine("It is " + IsEven(x, y).ToString().ToLower() +
                               " that x and y are both even.");
 
             // kludge to keep the window open because I don't
